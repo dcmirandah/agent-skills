@@ -41,6 +41,13 @@ Each skill is a directory with a `SKILL.md` file. Agents discover skills from th
 | `prompt-engineer` | Turn rough notes into clear prompts for other models |
 | `stress-tester` | Grill a design/plan (adapted from mattpocock `grill-me`) |
 
+## Instructions (optional)
+
+This repo also includes my instruction files you can copy into your tool's config:
+
+- Claude: `instructions/claude/CLAUDE.md`
+- Cursor: `instructions/cursor/rules/coding-style.mdc`
+
 ## Requirements
 
 Some skills expect tools on your `PATH`. Check each skill’s `SKILL.md` for prerequisites.
